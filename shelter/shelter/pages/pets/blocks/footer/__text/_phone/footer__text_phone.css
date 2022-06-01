@@ -1,0 +1,14 @@
+.footer__text_phone {
+  margin: 0;
+  max-width: 239px;
+  text-align: right;
+  height: 32px;
+  background: url(../../../../../../assets/icons/icon-phone.svg) no-repeat;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__text_phone {
+    margin: 0 auto 40px;
+  }
+}

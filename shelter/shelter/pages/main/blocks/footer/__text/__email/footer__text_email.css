@@ -1,0 +1,15 @@
+.footer__text_email {
+  margin: 40px 0;
+  max-width: 251px;
+  text-align: right;
+  height: 32px;
+  background: url(../../../../../../assets/icons/icon-email.svg) no-repeat;
+  padding-top: 4px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__text_email {
+    margin: 40px auto;
+  }
+}

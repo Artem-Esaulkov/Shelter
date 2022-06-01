@@ -1,0 +1,10 @@
+.header__title_link {
+  text-decoration: none;
+  font-family: "Georgia";
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 110%;
+  color: #F1CDB3;
+  letter-spacing: 0.06em;
+  transition: color 0.3s linear;
+}

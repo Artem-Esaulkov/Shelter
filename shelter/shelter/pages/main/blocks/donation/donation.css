@@ -1,0 +1,26 @@
+@import url(./__content/donation__content.css);
+@import url(./__dog/donation__dog.css);
+@import url(./__info/donation__info.css);
+@import url(./__title/donation__title.css);
+@import url(./__subtitle/donation__subtitle.css);
+@import url(./__credit/donation__credit.css);
+@import url(./__legal-info/donation__legal-info.css);
+
+.donation {
+  background: #f6f6f6;
+  margin: 0;
+  padding: 80px calc((100vw - 915px)/2) 100px;
+  max-width: 1280px;
+}
+
+@media screen and (max-width: 1250px) {
+  .donation {
+    padding: 80px 0 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .donation {
+    padding: 42px 0;
+  }
+}

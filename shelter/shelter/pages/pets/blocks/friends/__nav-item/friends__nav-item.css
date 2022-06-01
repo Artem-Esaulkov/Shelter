@@ -1,0 +1,15 @@
+.friends__nav-item {
+  margin: 0;
+  padding: 14px 0;
+  width: 52px;
+  height: 52px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  border: 2px solid #F1CDB3;
+}

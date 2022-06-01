@@ -1,0 +1,18 @@
+.donation__legal-info {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .donation__legal-info {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 280px;
+  }
+}

@@ -1,0 +1,19 @@
+.donation__subtitle {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 20px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .donation__subtitle {
+    line-height: 160%;
+    text-align: center;
+    margin: 20px auto;
+    letter-spacing: 0;
+  }
+}

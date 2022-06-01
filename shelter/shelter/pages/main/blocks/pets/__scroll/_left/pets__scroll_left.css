@@ -1,0 +1,18 @@
+.pets__scroll_left {
+  background-image: url(../../../../../../assets/icons/Arrow-left.png);
+  position: absolute;
+  top: 192px;
+  left: 0;
+}
+
+.pets__scroll_left:hover {
+  cursor: pointer;
+  background-color: #fddcc4;
+}
+
+@media screen and (max-width: 750px) {
+  .pets__scroll_left {
+    top: 455px;
+    left: 43px;
+  }
+}

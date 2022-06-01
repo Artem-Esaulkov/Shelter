@@ -1,0 +1,18 @@
+.donation__dog {
+  margin: 11px 0 10px;
+  box-sizing: border-box;
+  width: 505px;
+}
+
+@media screen and (max-width: 1250px) {
+  .donation__dog {
+    margin: 60px auto 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .donation__dog {
+    width: max(260px, 65.7vw);
+    margin-top: 42px;
+  }
+}

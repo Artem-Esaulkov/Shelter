@@ -1,0 +1,20 @@
+@import url(./__content/startscreen__content.css);
+@import url(./__title/startscreen__title.css);
+@import url(./__text/startscreen__text.css);
+@import url(./__button/startscreen__button.css);
+@import url(./__puppy/startscreen__puppy.css);
+
+.startscreen {
+  margin: 0;
+  padding: 60px calc((100vw - 1200px)/2) 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+@media screen and (max-width: 1250px) {
+  .startscreen {
+    flex-direction: column;
+    padding: 60px 0 0;
+  }
+}

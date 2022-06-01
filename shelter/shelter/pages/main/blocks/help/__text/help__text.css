@@ -1,0 +1,17 @@
+.help__text {
+  font-family: "Georgia";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .help__text {
+    font-size: 15px;
+    line-height: 110%;
+  }
+}

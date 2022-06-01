@@ -1,0 +1,10 @@
+.pets__scroll {
+  border: 2px solid #f1cdb3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 23px 23px;
+  width: 52px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}

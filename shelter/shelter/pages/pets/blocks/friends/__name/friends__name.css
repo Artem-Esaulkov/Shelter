@@ -1,0 +1,11 @@
+.friends__name {
+    margin: 23px 0 28px;
+    padding: 0;
+    font-family: "Georgia";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+    color: #545454;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }

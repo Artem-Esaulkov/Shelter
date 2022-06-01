@@ -1,0 +1,9 @@
+.header__link_active {
+  border-bottom: 3px solid #f1cdb3;
+  color: #292929;
+  padding-bottom: 4px;
+}
+
+#pets {
+  color: #fff;
+}

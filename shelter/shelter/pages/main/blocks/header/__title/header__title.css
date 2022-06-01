@@ -1,0 +1,7 @@
+@import url(./_link/header__title_link.css);
+
+.header__title {
+  margin: 0 0 10px;
+  padding: 0;
+  white-space: nowrap;
+}

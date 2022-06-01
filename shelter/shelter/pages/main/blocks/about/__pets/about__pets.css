@@ -1,0 +1,12 @@
+@media screen and (max-width: 1250px) {
+  .about__pets {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about__pets {
+    width: 260px;
+  }
+}

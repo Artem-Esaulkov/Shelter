@@ -1,0 +1,9 @@
+@import url(./__overlay/popup__overlay.css);
+@import url(./__container/popup__container.css);
+@import url(./__image-element/popup__image-element.css);
+
+.popup {
+  margin: 0;
+  padding: 0;
+  display: none;
+}

@@ -1,0 +1,26 @@
+.about__title {
+  margin: 14px 0 0;
+  padding: 0;
+  font-family: 'Georgia';
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  max-width: 370px;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__title {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about__title {
+    margin: 0 auto;
+    font-size: 25px;
+    max-width: 250px;
+    text-align: center;
+  }
+}

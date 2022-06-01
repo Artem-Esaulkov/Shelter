@@ -1,0 +1,29 @@
+@import url(./__logo/header__logo.css);
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__menu/header__menu.css);
+@import url(./__menu/_active/header__menu_active.css);
+@import url(./__link/header__link.css);
+@import url(./__link/_burger/header__link_burger.css);
+@import url(./__burger-menu/header__burger-menu.css);
+@import url(./__burger-line/header__burger-line.css);
+@import url(./__burger-lines/header__burger-lines.css);
+@import url(./__burger-lines/_rotated/header__burger-lines_rotated.css);
+@import url(./__upperset/header__upperset.css);
+
+.header {
+  margin: 0;
+  padding: 30px max(calc((3.9vw + 30px)/2), calc((100vw - 1200px)/2)) 30px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    padding: 30px 0 30px 10px;
+  }
+}

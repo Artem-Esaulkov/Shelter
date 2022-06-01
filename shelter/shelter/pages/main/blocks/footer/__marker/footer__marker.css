@@ -1,0 +1,11 @@
+.footer__marker {
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  color: transparent;
+  background-image: url(../../../../../assets/icons/icon-marker.svg);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 32px;
+  box-sizing: border-box;
+}

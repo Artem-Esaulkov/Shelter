@@ -1,0 +1,28 @@
+@keyframes slide-in {
+  from {
+    top: 0;
+    right: 0;
+  }
+
+  to {
+    top: 0;
+    right: -320px;
+  }
+}
+
+.wrapper__burger {
+  position: absolute;
+  top: 0;
+  right: -320px;
+  width: 320px;
+  height: 100vh;
+  background: #292929;
+  animation-duration: 1s;
+  animation-name: slide-in;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper__burger {
+    display: none;
+  }
+}

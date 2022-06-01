@@ -1,0 +1,22 @@
+.footer__address {
+  display: flex;
+  margin: 34px 0 32px;
+  padding: 0;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.footer__address:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__address {
+    max-width: 300px;
+    margin: 40px auto 0;
+  }
+
+  .footer__address:last-of-type {
+    margin: 40px auto 0;
+  }
+}

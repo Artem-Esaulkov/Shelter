@@ -1,0 +1,24 @@
+@import url(./_upper/help__container_upper.css);
+@import url(./_lower/help__container_lower.css);
+
+.help__container {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 55px 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1250px) {
+  .help__container {
+    column-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .help__container {
+    gap: 30px;
+  }
+}

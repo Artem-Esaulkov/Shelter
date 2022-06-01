@@ -1,0 +1,31 @@
+@import url(./__content/footer__content.css);
+@import url(./__item/footer__item.css);
+@import url(./__title/footer__title.css);
+@import url(./__text/footer__text.css);
+@import url(./__address/footer__address.css);
+@import url(./__marker/footer__marker.css);
+@import url(./__link/footer__link.css);
+@import url(./__puppy/footer__puppy.css);
+
+.footer {
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+  padding: 40px calc((100vw - 1200px)/2) 0;
+  margin: 0;
+  max-width: 1280px;
+  display: flex;
+}
+
+@media screen and (max-width: 1250px) {
+  .footer {
+    padding: 30px calc((100vw - (19.5vw - 90px) - 580px) / 2) 0;
+    flex-direction: column;
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer {
+    padding: 30px 0 0;
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+  }
+}

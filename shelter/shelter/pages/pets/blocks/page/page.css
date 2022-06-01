@@ -1,0 +1,20 @@
+.page {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  font-style: normal;
+  position: relative;
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}

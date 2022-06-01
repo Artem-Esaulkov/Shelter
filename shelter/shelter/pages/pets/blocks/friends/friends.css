@@ -1,0 +1,26 @@
+@import url(./__title/friends__title.css);
+@import url(./__container/friends__container.css);
+@import url(./__card/friends__card.css);
+@import url(./__name/friends__name.css);
+@import url(./__more/friends__more.css);
+@import url(./__navigation/friends__navigation.css);
+@import url(./__nav-item/friends__nav-item.css);
+
+.friends {
+  margin: 0;
+  padding: 80px calc((100vw - 1200px) / 2) 100px;
+  max-width: 1280px;
+  background-color: #f6f6f6;
+}
+
+@media screen and (max-width: 1250px) {
+  .friends {
+    padding: 60px 0 70px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .friends {
+    padding: 42px 0 42px;
+  }
+}

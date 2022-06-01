@@ -1,0 +1,8 @@
+.header__menu_active {
+  display: flex;
+  width: 243px;
+  margin: 0 auto auto;
+  text-align: center;
+  flex-direction: column;
+  row-gap: 40px;
+}

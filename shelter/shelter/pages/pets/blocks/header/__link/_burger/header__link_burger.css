@@ -1,0 +1,10 @@
+.header__link_burger {
+  font-family: "Arial";
+  font-size: 32px;
+  font-weight: normal;
+  color: #cdcdcd;
+}
+
+.header__link_burger #pets {
+  color: #fff;
+}

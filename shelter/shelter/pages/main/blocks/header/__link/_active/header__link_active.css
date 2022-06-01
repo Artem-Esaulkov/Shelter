@@ -1,0 +1,5 @@
+.header__link_active {
+  border-bottom: 3px solid #f1cdb3;
+  color: #fafafa;
+  padding-bottom: 4px;
+}

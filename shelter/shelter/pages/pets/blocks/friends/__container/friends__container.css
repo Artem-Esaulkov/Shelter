@@ -1,0 +1,36 @@
+.friends__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px 40px;
+  margin: 45px 0 42px;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .friends__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 30px auto 40px;
+    padding: 0;
+    width: 890px;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  .friends__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .friends__container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 270px;
+    margin: 42px auto;
+  }
+}

@@ -1,0 +1,18 @@
+.pets__scroll_right {
+  background-image: url(../../../../../../assets/icons/Arrow-right.png);
+  position: absolute;
+  top: 192px;
+  right: 0px;
+}
+
+.pets__scroll_right:hover {
+  cursor: pointer;
+  background-color: #fddcc4;
+}
+
+@media screen and (max-width: 750px) {
+  .pets__scroll_right {
+    top: 455px;
+    right: 43px;
+  }
+}

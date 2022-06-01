@@ -1,0 +1,8 @@
+@import url(./__burger/wrapper__burger.css);
+@import url(./__burger/_active/wrapper__burger_active.css);
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}

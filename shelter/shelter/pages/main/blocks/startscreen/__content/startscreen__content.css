@@ -1,0 +1,16 @@
+.startscreen__content {
+  margin: 163px 0 243px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .startscreen__content {
+    margin: 0 auto 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .startscreen__content {
+    margin: 0 auto 105px;
+  }
+}

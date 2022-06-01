@@ -1,0 +1,8 @@
+.friends__nav-item_active {
+  transition: background-color 0.3s linear;
+}
+
+.friends__nav-item_active:hover {
+  cursor: pointer;
+  background-color: #f1cdb3;
+}

@@ -1,0 +1,13 @@
+.friends__navigation {
+  margin: 0 auto;
+  padding: 0;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  .friends__navigation {
+    width: 300px;
+  }
+}

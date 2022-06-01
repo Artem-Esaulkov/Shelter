@@ -1,0 +1,29 @@
+.pets__button {
+  background: #f1cdb3;
+  border-radius: 100px;
+  text-align: center;
+  padding: 15px 0;
+  border: none;
+  color: #292929;
+  font-family: 'Georgia';
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  margin: 0 470px;
+  width: 261px;
+  box-sizing: border-box;
+  transition: background-color 0.3s linear;
+  display: block;
+  text-decoration: none;
+}
+
+.pets__button:hover {
+  cursor: pointer;
+  background-color: #fddcc4;
+}
+
+@media screen and (max-width: 1250px) {
+  .pets__button {
+    margin: 0 auto;
+  }
+}

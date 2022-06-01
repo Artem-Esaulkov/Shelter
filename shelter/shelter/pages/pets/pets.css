@@ -1,0 +1,16 @@
+@import url(../../vendor/normalize.css);
+@import url(../../assets/fonts/fonts.css);
+@import url(../pets/blocks/page/page.css);
+@import url(../pets/blocks/header/header.css);
+@import url(../pets/blocks/header/__link/_active/header__link_active.css);
+@import url(../pets/blocks/friends/friends.css);
+@import url(../pets/blocks/friends/__nav-item/_inactive/friends__nav-item_inactive.css);
+@import url(../pets/blocks/friends/__nav-item/_number/friends__nav-item_number.css);
+@import url(../pets/blocks/friends/__nav-item/_active/friends__nav-item_active.css);
+@import url(../pets/blocks/footer/footer.css);
+@import url(../pets/blocks/wrapper/wrapper.css);
+@import url(../pets/blocks/wrapper/_active/wrapper_active.css);
+
+#pets {
+    color: #fff;
+}

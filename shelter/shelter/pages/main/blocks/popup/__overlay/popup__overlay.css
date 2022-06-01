@@ -1,0 +1,11 @@
+.popup__overlay {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    overflow: hidden;
+  }

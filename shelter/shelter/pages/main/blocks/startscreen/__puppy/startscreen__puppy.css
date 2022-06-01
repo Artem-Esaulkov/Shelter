@@ -1,0 +1,13 @@
+@media screen and (max-width: 1250px) {
+  .startscreen__puppy {
+    margin: 0 0 0 170px;
+    width: min(700px, calc(25.2vw + 375.5px));
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .startscreen__puppy {
+    margin: 0 0 0 calc((100vw - 208px) / 2);
+    width: 260px;
+  }
+}

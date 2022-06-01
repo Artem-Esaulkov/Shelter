@@ -1,0 +1,16 @@
+.footer__puppy {
+  width: 300px;
+}
+
+@media screen and (max-width: 1250px) {
+  .footer__puppy {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer__puppy {
+    width: 260px;
+  }
+}

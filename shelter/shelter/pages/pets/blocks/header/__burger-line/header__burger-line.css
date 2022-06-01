@@ -1,0 +1,15 @@
+.header__burger-line {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__burger-line {
+    display: block;
+    border: 1px solid #000;
+    margin: 0 0 9px;
+  }
+
+  .header__burger-line:last-of-type {
+      margin: 0;
+  }
+}

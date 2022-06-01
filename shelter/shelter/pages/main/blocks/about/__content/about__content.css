@@ -1,0 +1,22 @@
+.about__content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__content {
+    display: block;
+    margin: 0 auto;
+    max-width: 56.901vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about__content {
+    margin: 42px auto;
+    max-width: 300px;
+  }
+}

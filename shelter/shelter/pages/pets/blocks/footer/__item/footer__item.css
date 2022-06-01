@@ -1,0 +1,16 @@
+.footer__item {
+  margin: 16px 160px 60px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .footer__item {
+    margin: 0 calc(19.5vw - 90px) 0 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer__item {
+    margin: 0 max(11px, calc(19.5vw - 90px)) 0;
+  }
+}

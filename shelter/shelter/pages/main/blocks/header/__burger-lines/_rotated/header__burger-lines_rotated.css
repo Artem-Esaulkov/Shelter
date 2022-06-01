@@ -1,0 +1,10 @@
+.header__burger-lines_rotated {
+  margin: 15px 43px 15px 0;
+  transform: rotate(90deg);
+  transition: transform 2s ease;
+}
+
+.header__burger-lines_inactive {
+  transform: rotate(0deg);
+  transition: transform 2s ease;
+}

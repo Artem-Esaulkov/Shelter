@@ -1,0 +1,30 @@
+.friends__card {
+  margin: 0;
+  padding: 0;
+  border-radius: 9px;
+  background-color: #fafafa;
+  transition: background-color 0.3s linear;
+  width: 270px;
+}
+
+.friends__card:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.friends__card:hover .friends__more {
+  cursor: pointer;
+  background-color: #fddcc4;
+}
+
+@media screen and (max-width: 1250px) {
+  #Scarlett, #Freddie {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #Sophia, #Timmy, #Charly {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.donation__credit {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  background-color: #f1cdb3;
+  border-radius: 9px;
+  text-decoration: none;
+  background-image: url(../../../../../assets/icons/credit-card.svg);
+  background-repeat: no-repeat;
+  background-position: top 10px left 15px;
+  display: block;
+  width: 349px;
+  text-align: right;
+  box-sizing: border-box;
+  transition: background-color 0.3s linear;
+}
+
+.donation__credit:hover {
+  cursor: pointer;
+  background-color: #fddcc4;
+}
+
+@media screen and (max-width: 750px) {
+  .donation__credit {
+    width: 281px;
+    font-size: 15px;
+    margin: 0 auto 23px;
+    padding: 12px 15px;
+  }  
+ }

@@ -1,0 +1,9 @@
+.about__text_start {
+  margin: 25px 0;
+}
+
+@media screen and (max-width: 750px) {
+  .about__text_start {
+    margin: 25px 0 0;
+  }
+}

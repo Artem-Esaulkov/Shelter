@@ -1,0 +1,11 @@
+.help__container_lower {
+  margin: 0;
+}
+
+.help__container_lower .help__item:first-of-type {
+  margin-left: 84px;
+}
+
+.help__container_lower .help__item:last-of-type {
+  margin-right: 84px;
+}

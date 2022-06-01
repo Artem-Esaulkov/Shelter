@@ -1,0 +1,22 @@
+.header__burger-lines {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__burger-lines {
+    display: block;
+    list-style: none;
+    margin: auto 53px auto 0;
+    padding: 0;
+    width: 30px;
+    text-align: center;
+  }
+
+  .header__burger-lines:hover {
+    cursor: pointer;
+  }
+
+  .header__burger-lines:hover .header__burger-line {
+    border-color: #fccdd4;
+  }
+}

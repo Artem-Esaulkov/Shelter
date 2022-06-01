@@ -1,0 +1,27 @@
+@import url(./__title/pets__title.css);
+@import url(./__container/pets__container.css);
+@import url(./__card/pets__card.css);
+@import url(./__scroll/pets__scroll.css);
+@import url(./__item/pets__item.css);
+@import url(./__name/pets__name.css);
+@import url(./__more/pets__more.css);
+@import url(./__button/pets__button.css);
+
+.pets {
+  margin: 0;
+  padding: 80px calc((100vw - 1200px)/2) 100px;
+  background-color: #f6f6f6;
+  max-width: 1280px;
+}
+
+@media screen and (max-width: 1250px) {
+  .pets {
+    padding: 80px 0 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .pets {
+    padding: 42px 0;
+  }
+}
